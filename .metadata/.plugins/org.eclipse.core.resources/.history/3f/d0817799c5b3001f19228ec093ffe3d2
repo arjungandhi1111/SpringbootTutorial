@@ -1,0 +1,14 @@
+spring.application.name=GatewayApi_Server
+
+server.port=9097
+
+eureka.client.service-url.defaultZone=http://localhost:8761/eureka
+
+spring.cloud.gateway.routes[0].id=hospitals-feign-retry
+spring.cloud.gateway.routes[0].uri=http://localhost:9091/hospitals-feign-retry
+#spring.cloud.gateway.routes[0].predicates=Path=/hospitals-feign-retry/**
+spring.cloud.gateway.routes[0].predicates=After=2024-12-05T15:40:30.123+01:00
+
+spring.cloud.gateway.routes[1].id=doctors
+spring.cloud.gateway.routes[1].uri=http://localhost:8081/doctors
+spring.cloud.gateway.routes[1].predicates=Path=/doctors/**

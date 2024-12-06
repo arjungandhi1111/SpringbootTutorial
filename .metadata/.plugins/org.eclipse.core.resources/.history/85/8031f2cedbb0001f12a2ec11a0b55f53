@@ -1,0 +1,51 @@
+package com.example.demo.service;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.example.demo.controller.ReponseEntity;
+import com.example.demo.pojo.Customer;
+import com.example.demo.repository.CustomerRepo;
+
+@Service
+public class CustomerService {
+   @Autowired
+   private CustomerRepo customerRepo;
+   
+   public List<Customer> getAllCustomer() {
+	   return customerRepo.findAll();
+   }
+   
+   @SuppressWarnings("unchecked")
+public List<Customer> createdCustomer(Customer customer){
+	   return (List<Customer>) customerRepo.save(customer);
+	   
+   }
+   
+   public Optional<Customer> updateCustomer(long id, Customer updatedCustomer) {
+       return customerRepo.findById(id).map(existingCustomer -> {
+           if (updatedCustomer.getName() != null) {
+               existingCustomer.setName(updatedCustomer.getName());
+           }
+           if (updatedCustomer.getEmail() != null) {
+               existingCustomer.setEmail(updatedCustomer.getEmail());
+           }
+           return customerRepo.save(existingCustomer);
+       });
+   }
+
+public Optional<Customer> getCustomerById(long id) {
+	// TODO Auto-generated method stub
+	return customerRepo.findById(id);
+}
+
+public void deleteCustomerById(Long id) {
+	 customerRepo.deleteById(id);
+}
+ 
+	   
+ }
+

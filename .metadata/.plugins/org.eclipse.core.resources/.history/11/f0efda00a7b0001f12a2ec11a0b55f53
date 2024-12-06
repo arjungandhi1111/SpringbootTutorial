@@ -1,0 +1,75 @@
+package com.example.Customer1.Service;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.stereotype.Service;
+
+import com.example.Customer1.Model.Customer;
+
+@Service
+public class CustomerService {
+
+    private final List<Customer> customers = new ArrayList<>();
+
+    public CustomerService() {
+        // Adding three customers to the list
+        customers.add(new Customer(1L, "John Doe", "john@example.com"));
+        customers.add(new Customer(2L, "Jane Smith", "jane@example.com"));
+        customers.add(new Customer(3L, "Mike Johnson", "mike@example.com"));
+    }
+
+    public List<Customer> getAllCustomers() {
+        return customers;
+    }
+
+    public void addCustomer(Customer customer) {
+        customers.add(customer);
+    }
+    
+    2. 12. 2024 13:04 • 
+    package com.example.demo.service;
+    import java.util.ArrayList;
+    import java.util.List;
+    import java.util.Optional;
+    import org.springframework.stereotype.Service;
+    import com.example.demo.pojo.Customer;
+    @Service
+    public class CustomerService {
+    private List<Customer> customers=new ArrayList<Customer>();
+
+    Customer customerArray[]= {new Customer(1L,"customer1","customer1@gmail.com"),
+            new Customer(2L,"customer2","customer2@gmail.com"),
+            new Customer(3L,"customer3","customer3@gmail.com")};
+
+    public CustomerService() {
+        for (Customer customer : customerArray) {
+            customers.add(customer);
+        }
+    }
+
+    public List<Customer> getAllCustomers() {
+        /*
+         * customers.clear(); for (Customer customer : customerArray) {
+         * customers.add(customer); }
+         */
+        return customers;
+    }
+
+    public Optional<Customer> getCustomerById(long id) {
+         for (Customer customer : customers) {
+            if (customer.getId() == id) {
+                return Optional.of(customer);
+            }
+        }
+        return Optional.empty(); 
+    }
+
+    public Customer addCustomer(Customer customer) {
+        customers.add(customer);
+        return customer;
+    }
+
+    }
+}

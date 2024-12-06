@@ -1,0 +1,36 @@
+package com.example.Customer1.Service;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.stereotype.Service;
+
+import com.example.Customer1.Model.Customer;
+
+@Service
+public class CustomerService {
+
+    private final List<Customer> customers = new ArrayList<>();
+
+    public CustomerService() {
+        // Adding three customers to the list
+        customers.add(new Customer(1L, "John Doe", "john@example.com"));
+        customers.add(new Customer(2L, "Jane Smith", "jane@example.com"));
+        customers.add(new Customer(3L, "Mike Johnson", "mike@example.com"));
+    }
+
+    public List<Customer> getAllCustomers() {
+        return customers;
+    }
+
+    public void addCustomer(Customer customer) {
+        customers.add(customer);
+    }
+    
+    public Optional<Customer> findCustomerById(Long id) {
+        return customers.stream()
+                .filter(customer -> customer.getId().equals(id))
+                .findFirst();
+    }
+}

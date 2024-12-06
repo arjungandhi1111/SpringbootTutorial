@@ -1,0 +1,47 @@
+package com.example.demo.dao.impl;
+
+import com.example.demo.dao.DocumentDAO;
+import com.example.demo.model.Document;
+import org.springframework.stereotype.Repository;
+
+import javax.sql.DataSource;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.Optional;
+
+@Repository
+public class DoctorDAOImpl implements DoctorDAO {
+
+    private final DataSource dataSource;
+
+    public DoctorDAOImpl(DataSource dataSource) {
+        this.dataSource = dataSource;
+    }
+
+    @Override
+    public Optional<Document> findDocById(int id) {
+        String sql = "SELECT * FROM documents WHERE id = ?";
+        try (Connection connection = dataSource.getConnection();
+             PreparedStatement ps = connection.prepareStatement(sql)) {
+
+            ps.setLong(1, id);
+            ResultSet rs = ps.executeQuery();
+
+            if (rs.next()) {
+                Document document = new Document(
+                        rs.getInt("id"),
+                        rs.getString("doctorname"),
+                        rs.getString("specialization"),
+                        rs.getInt("hospitalid")
+                );
+                return Optional.of(document);
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return Optional.empty();
+    }
+}

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="HospitalFindDoctorsApplicationTests" project="HospitalFindDoctors" tests="2" started="2" failures="0" errors="1" ignored="0">
+  <testsuite name="com.example.demo.HospitalFindDoctorsApplicationTests" time="0.255" displayname="HospitalFindDoctorsApplicationTests" uniqueid="[engine:junit-jupiter]/[class:com.example.demo.HospitalFindDoctorsApplicationTests]">
+    <testcase name="contextLoads" classname="com.example.demo.HospitalFindDoctorsApplicationTests" time="0.037" displayname="contextLoads()" uniqueid="[engine:junit-jupiter]/[class:com.example.demo.HospitalFindDoctorsApplicationTests]/[method:contextLoads()]"/>
+    <testcase name="testFindAllDoctorsInHospital" classname="com.example.demo.HospitalFindDoctorsApplicationTests" time="0.216" displayname="testFindAllDoctorsInHospital()" uniqueid="[engine:junit-jupiter]/[class:com.example.demo.HospitalFindDoctorsApplicationTests]/[method:testFindAllDoctorsInHospital()]">
+      <error>jakarta.servlet.ServletException: Request processing failed: java.lang.NullPointerException: Cannot invoke "org.springframework.http.ResponseEntity.getBody()" because "entity" is null&#13;
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1022)&#13;
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)&#13;
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)&#13;
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)&#13;
+	at org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:72)&#13;
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)&#13;
+	at org.springframework.mock.web.MockFilterChain$ServletFilterProxy.doFilter(MockFilterChain.java:165)&#13;
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132)&#13;
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)&#13;
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)&#13;
+	at org.springframework.test.web.servlet.setup.MockMvcFilterDecorator.doFilter(MockMvcFilterDecorator.java:162)&#13;
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132)&#13;
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)&#13;
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)&#13;
+	at org.springframework.test.web.servlet.setup.MockMvcFilterDecorator.doFilter(MockMvcFilterDecorator.java:162)&#13;
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132)&#13;
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:114)&#13;
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)&#13;
+	at org.springframework.test.web.servlet.setup.MockMvcFilterDecorator.doFilter(MockMvcFilterDecorator.java:162)&#13;
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132)&#13;
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)&#13;
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)&#13;
+	at org.springframework.test.web.servlet.setup.MockMvcFilterDecorator.doFilter(MockMvcFilterDecorator.java:162)&#13;
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132)&#13;
+	at org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:201)&#13;
+	at com.example.demo.HospitalFindDoctorsApplicationTests.testFindAllDoctorsInHospital(HospitalFindDoctorsApplicationTests.java:51)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+Caused by: java.lang.NullPointerException: Cannot invoke "org.springframework.http.ResponseEntity.getBody()" because "entity" is null&#13;
+	at com.example.demo.controller.HospitalController.findalldoctorsinhospital(HospitalController.java:50)&#13;
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)&#13;
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)&#13;
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)&#13;
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)&#13;
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)&#13;
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727)&#13;
+	at com.example.demo.controller.HospitalController$$SpringCGLIB$$0.findalldoctorsinhospital(&lt;generated&gt;)&#13;
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)&#13;
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)&#13;
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)&#13;
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)&#13;
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)&#13;
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)&#13;
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)&#13;
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)&#13;
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)&#13;
+	... 28 more&#13;
+&#13;
+</error>
+    </testcase>
+  </testsuite>
+</testrun>

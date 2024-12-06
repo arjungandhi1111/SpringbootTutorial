@@ -1,0 +1,81 @@
+2024-12-03 15:48:09,019 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2024-12-03 15:52:09,436 [Worker-0: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:Customer3:0.0.1-SNAPSHOT @ C:\Users\Student\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Customer3\pom.xml.
+2024-12-03 15:52:10,143 [Worker-0: Importing Maven projects] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2024-12-03 15:52:10,338 [Worker-0: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:DoctorAddService:0.0.1-SNAPSHOT @ C:\Users\Student\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\DoctorAddService\pom.xml.
+2024-12-03 15:52:10,586 [Worker-0: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:DoctorFindAllService:0.0.1-SNAPSHOT @ C:\Users\Student\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\DoctorFindAllService\pom.xml.
+2024-12-03 15:52:10,797 [Worker-0: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:DoctorFindService:0.0.1-SNAPSHOT @ C:\Users\Student\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\DoctorFindService\pom.xml.
+2024-12-03 15:52:11,020 [Worker-0: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:HospitalFindDoctors:0.0.1-SNAPSHOT @ C:\Users\Student\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\HospitalFindDoctors\pom.xml.
+2024-12-03 15:52:13,569 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DoctorFindAllService/src/main/java
+2024-12-03 15:52:13,572 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DoctorFindAllService/src/main/resources
+2024-12-03 15:52:13,573 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DoctorFindAllService/src/main/resources
+2024-12-03 15:52:13,574 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DoctorFindAllService/src/test/java
+2024-12-03 15:52:13,575 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DoctorFindAllService/src/test/resources
+2024-12-03 15:52:14,178 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HospitalFindDoctors/src/main/java
+2024-12-03 15:52:14,179 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HospitalFindDoctors/src/main/resources
+2024-12-03 15:52:14,180 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HospitalFindDoctors/src/main/resources
+2024-12-03 15:52:14,182 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HospitalFindDoctors/src/test/java
+2024-12-03 15:52:14,184 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HospitalFindDoctors/src/test/resources
+2024-12-03 15:52:14,675 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DoctorAddService/src/main/java
+2024-12-03 15:52:14,676 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DoctorAddService/src/main/resources
+2024-12-03 15:52:14,678 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DoctorAddService/src/main/resources
+2024-12-03 15:52:14,679 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DoctorAddService/src/test/java
+2024-12-03 15:52:14,680 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DoctorAddService/src/test/resources
+2024-12-03 15:52:15,186 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Customer3/src/main/java
+2024-12-03 15:52:15,188 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Customer3/src/main/resources
+2024-12-03 15:52:15,191 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Customer3/src/main/resources
+2024-12-03 15:52:15,191 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Customer3/src/test/java
+2024-12-03 15:52:15,192 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Customer3/src/test/resources
+2024-12-03 15:52:15,696 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DoctorFindService/src/main/java
+2024-12-03 15:52:15,697 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DoctorFindService/src/main/resources
+2024-12-03 15:52:15,698 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DoctorFindService/src/main/resources
+2024-12-03 15:52:15,699 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DoctorFindService/src/test/java
+2024-12-03 15:52:15,700 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DoctorFindService/src/test/resources
+2024-12-03 15:52:16,040 [Worker-0: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 5 project(s) in 13 sec
+2024-12-03 15:52:16,478 [Worker-0: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-12-03 15:52:18,902 [Worker-0: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:Customer3:0.0.1-SNAPSHOT @ C:\Users\Student\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Customer3\pom.xml.
+2024-12-03 15:52:19,575 [Worker-0: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2024-12-03 15:52:19,752 [Worker-0: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:DoctorAddService:0.0.1-SNAPSHOT @ C:\Users\Student\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\DoctorAddService\pom.xml.
+2024-12-03 15:52:19,940 [Worker-0: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:DoctorFindAllService:0.0.1-SNAPSHOT @ C:\Users\Student\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\DoctorFindAllService\pom.xml.
+2024-12-03 15:52:20,118 [Worker-0: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:DoctorFindService:0.0.1-SNAPSHOT @ C:\Users\Student\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\DoctorFindService\pom.xml.
+2024-12-03 15:52:20,313 [Worker-0: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:HospitalFindDoctors:0.0.1-SNAPSHOT @ C:\Users\Student\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\HospitalFindDoctors\pom.xml.
+2024-12-03 15:52:22,032 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Customer3/src/main/java
+2024-12-03 15:52:22,033 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Customer3/src/main/resources
+2024-12-03 15:52:22,034 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Customer3/src/main/resources
+2024-12-03 15:52:22,035 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Customer3/src/test/java
+2024-12-03 15:52:22,035 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Customer3/src/test/resources
+2024-12-03 15:52:22,404 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DoctorAddService/src/main/java
+2024-12-03 15:52:22,404 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DoctorAddService/src/main/resources
+2024-12-03 15:52:22,405 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DoctorAddService/src/main/resources
+2024-12-03 15:52:22,405 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DoctorAddService/src/test/java
+2024-12-03 15:52:22,406 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DoctorAddService/src/test/resources
+2024-12-03 15:52:22,735 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DoctorFindAllService/src/main/java
+2024-12-03 15:52:22,736 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DoctorFindAllService/src/main/resources
+2024-12-03 15:52:22,737 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DoctorFindAllService/src/main/resources
+2024-12-03 15:52:22,737 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DoctorFindAllService/src/test/java
+2024-12-03 15:52:22,738 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DoctorFindAllService/src/test/resources
+2024-12-03 15:52:23,053 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DoctorFindService/src/main/java
+2024-12-03 15:52:23,054 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DoctorFindService/src/main/resources
+2024-12-03 15:52:23,055 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DoctorFindService/src/main/resources
+2024-12-03 15:52:23,055 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DoctorFindService/src/test/java
+2024-12-03 15:52:23,056 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DoctorFindService/src/test/resources
+2024-12-03 15:52:23,368 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HospitalFindDoctors/src/main/java
+2024-12-03 15:52:23,369 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HospitalFindDoctors/src/main/resources
+2024-12-03 15:52:23,370 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HospitalFindDoctors/src/main/resources
+2024-12-03 15:52:23,370 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HospitalFindDoctors/src/test/java
+2024-12-03 15:52:23,371 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HospitalFindDoctors/src/test/resources
+2024-12-03 15:52:24,072 [Worker-0: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 5 poms: local refresh takes 0,00 sec, refresh facades takes 5,00 sec, update config takes 1,00 sec 
+2024-12-03 15:52:24,760 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-03 15:52:24,784 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-03 15:52:24,791 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Student\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Customer3\src\test\resources
+2024-12-03 15:52:26,404 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-03 15:52:26,435 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-03 15:52:26,457 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Student\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\DoctorAddService\src\test\resources
+2024-12-03 15:52:26,791 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-03 15:52:26,819 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-03 15:52:26,825 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Student\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\DoctorFindAllService\src\test\resources
+2024-12-03 15:52:27,133 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-03 15:52:27,159 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-03 15:52:27,165 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Student\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\DoctorFindService\src\test\resources
+2024-12-03 15:52:27,534 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-03 15:52:27,553 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-03 15:52:27,562 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Student\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\HospitalFindDoctors\src\test\resources
